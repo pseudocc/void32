@@ -1,0 +1,9 @@
+.boot	0x00000000
+
+
+.ivt	0x00000100
+word	0x00000000	; irq backup
+word	0x00000000	; irq restore
+
+.irq	0x00000200
+word	0		; 
